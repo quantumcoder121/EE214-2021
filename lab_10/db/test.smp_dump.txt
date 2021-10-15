@@ -1,0 +1,23 @@
+
+State Machine - |test|lcd_controller:lcd_instance|state
+Name state.S11 state.S10 state.S9 state.S8 state.S7 state.S6 state.S5 state.S4 state.S3 state.S2 state.S1 state.S0 
+state.S0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.S1 0 0 0 0 0 0 0 0 0 0 1 1 
+state.S2 0 0 0 0 0 0 0 0 0 1 0 1 
+state.S3 0 0 0 0 0 0 0 0 1 0 0 1 
+state.S4 0 0 0 0 0 0 0 1 0 0 0 1 
+state.S5 0 0 0 0 0 0 1 0 0 0 0 1 
+state.S6 0 0 0 0 0 1 0 0 0 0 0 1 
+state.S7 0 0 0 0 1 0 0 0 0 0 0 1 
+state.S8 0 0 0 1 0 0 0 0 0 0 0 1 
+state.S9 0 0 1 0 0 0 0 0 0 0 0 1 
+state.S10 0 1 0 0 0 0 0 0 0 0 0 1 
+state.S11 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |test|cov_detect:covid_det_instance|y_present
+Name y_present.s4 y_present.s3 y_present.s2 y_present.s1 y_present.init 
+y_present.init 0 0 0 0 0 
+y_present.s1 0 0 0 1 1 
+y_present.s2 0 0 1 0 1 
+y_present.s3 0 1 0 0 1 
+y_present.s4 1 0 0 0 1 
